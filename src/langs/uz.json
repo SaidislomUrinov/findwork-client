@@ -1,0 +1,10 @@
+{
+    "fill_the_rows": "Qatorlarni to'ldiring",
+    "invalid_email": "Email xato kiritildi",
+    "activator_sended": "Emailingizga xabar yuborildi iltimos tekshiring",
+    "alaredy_registered": "Ushbu email avval ro'yhatdan o'tgan",
+    "user_not_found": "Foydalanuvchi topilmadi",
+    "user_not_activated": "Foydalanuvchi profili aktiv emas",
+    "success": "Bajarildi",
+    "error": "Nimadir xato ketti"
+}

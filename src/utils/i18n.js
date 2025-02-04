@@ -1,7 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import uz from "./langs/uz.json";
-import ru from "./langs/ru.json";
+import uz from "../langs/uz.json";
+import ru from "../langs/ru.json";
 
 i18n
   .use(initReactI18next)
