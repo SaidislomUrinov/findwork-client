@@ -4,11 +4,14 @@ import App from "./App";
 import "./index.css";
 
 import { ThemeProvider } from "@material-tailwind/react";
+import { Provider } from "react-redux";
+import store from "./contexts/store";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <ThemeProvider>
+  <ThemeProvider>
+    <Provider store={store}>
       <App />
-    </ThemeProvider>
-  </React.StrictMode>,
+    </Provider>
+  </ThemeProvider>
+
 );
