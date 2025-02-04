@@ -6,5 +6,12 @@
     "user_not_found": "Foydalanuvchi topilmadi",
     "user_not_activated": "Foydalanuvchi profili aktiv emas",
     "success": "Bajarildi",
-    "error": "Nimadir xato ketti"
+    "error": "Nimadir xato ketti",
+    "navbar": {
+        "login": "Profilga kirish",
+        "categories": "Kategoriyalar",
+        "vacancies": "Vakansiyalar",
+        "companies": "Kompaniyalar",
+        "profile":"Profil"
+    }
 }
