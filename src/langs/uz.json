@@ -16,7 +16,16 @@
         "categories": "Kategoriyalar",
         "vacancies": "Vakansiyalar",
         "companies": "Kompaniyalar",
-        "profile": "Profil"
+        "profile": "Profil",
+        "staff": "Ishchi( Mutaxassis )",
+        "employer": "Ish beruvchi( Kompaniya )",
+        "more": "Yana",
+        "myvacancies": "Vakansiyalarim",
+        "applications": "Arizalar",
+        "addvacancy": "Vakansiya joylash",
+        "myapplications": "Arizalarim",
+        "resume": "Rezyume",
+        "logout": "Chiqish"
     },
     "auth": {
         "fill_the_rows": "Qatorlarni to'ldiring",
@@ -26,5 +35,11 @@
         "link_not_found": "Link xato",
         "link_alaredy_used": "Ushbu link avval ishlatilgan",
         "link_expired": "Ushbu link vaqti o'tgan, iltimos qayta so'rov yuboring"
+    },
+    "role": {
+        "title": "Siz kimsiz?",
+        "employer": "Ish beruvchi( Kompaniya )",
+        "staff": "Ishchi( Mutaxassis )",
+        "fill_the_rows": "Kim ekanligingizni tanlang"
     }
 }
