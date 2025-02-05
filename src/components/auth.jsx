@@ -19,7 +19,7 @@ function Auth() {
                 throw new Error(msg);
             }
             setOpenModal(true);
-            successMsg(t(msg));
+            successMsg(t(`auth.${msg}`));
         } catch (error) {
             errorMsg(t(error.message));
         } finally {
@@ -32,9 +32,9 @@ function Auth() {
                 {/*  */}
                 <p className="font-bold w-full text-[20px]">{t?.(`auth.auth`)}</p>
                 {/*  */}
-                <Input label={t('user.email')} required color="indigo" onChange={e => setEmail('')} value={email} icon={<FaEnvelope />} />
+                <Input size="lg" label={t('user.email')} required color="indigo" onChange={e => setEmail(e.target.value.trim().toLowerCase())} value={email} icon={<FaEnvelope />} />
                 {/*  */}
-                <Button loading={disabled} onClick={submit} className="w-full" variant="gradient" color="indigo">
+                <Button size="lg" loading={disabled} onClick={submit} className="w-full" variant="gradient" color="indigo">
                     {t('submit')}
                 </Button>
             </div>
