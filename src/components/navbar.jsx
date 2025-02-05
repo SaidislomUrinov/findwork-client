@@ -88,7 +88,7 @@ function Navbar() {
                         {!_id ?
                             <>
                                 <Button className="hidden md:flex rounded-full" onClick={() => nv('/auth')} color="indigo" variant="gradient">
-                                    {t("navbar.login")}
+                                    {t("navbar.auth")}
                                     <BiLogIn className="text-[20px]" />
                                 </Button>
                                 {/*  */}

@@ -1,17 +1,30 @@
 {
-    "fill_the_rows": "Qatorlarni to'ldiring",
-    "invalid_email": "Email xato kiritildi",
-    "activator_sended": "Emailingizga xabar yuborildi iltimos tekshiring",
-    "alaredy_registered": "Ushbu email avval ro'yhatdan o'tgan",
-    "user_not_found": "Foydalanuvchi topilmadi",
-    "user_not_activated": "Foydalanuvchi profili aktiv emas",
+    "submit": "Tasdiqlash",
     "success": "Bajarildi",
     "error": "Nimadir xato ketti",
+    "user": {
+        "firstName": "Ismingiz",
+        "lastName": "Familiyangiz",
+        "email": "Emailingiz",
+        "password": "Parol",
+        "repassword": "Parolni tasdiqlash",
+        "staff": "Ishchi( Mutaxassis )",
+        "employer": "Ish beruvchi( Kompaniya )"
+    },
     "navbar": {
-        "login": "Profilga kirish",
+        "auth": "Profilga kirish",
         "categories": "Kategoriyalar",
         "vacancies": "Vakansiyalar",
         "companies": "Kompaniyalar",
-        "profile":"Profil"
+        "profile": "Profil"
+    },
+    "auth": {
+        "fill_the_rows": "Qatorlarni to'ldiring",
+        "auth": "Ro'yhatdan o'tish & Kirish",
+        "invalid_email": "Email xato kiritildi",
+        "activator_sended": "Emailingizga xabar yuborildi iltimos tekshiring",
+        "link_not_found": "Link xato",
+        "link_alaredy_used": "Ushbu link avval ishlatilgan",
+        "link_expired": "Ushbu link vaqti o'tgan, iltimos qayta so'rov yuboring"
     }
 }

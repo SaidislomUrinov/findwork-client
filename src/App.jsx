@@ -7,6 +7,9 @@ import './utils/i18n';
 import { useTranslation } from "react-i18next";
 import { Toaster } from "react-hot-toast";
 import Navbar from "./components/navbar";
+import { Route, Routes } from "react-router-dom";
+import SignIn from "./components/auth";
+import Auth from "./components/auth";
 function App() {
   const dp = useDispatch();
   const { t } = useTranslation();
@@ -23,6 +26,9 @@ function App() {
   return (
     <>
       <Navbar />
+      <Routes>
+        <Route path="/auth" element={<Auth />} />
+      </Routes>
       <Toaster toastOptions={{ style: { zIndex: '9999', maxWidth: "600px" } }} />
     </>
   );
